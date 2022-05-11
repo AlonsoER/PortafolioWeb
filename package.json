@@ -1,0 +1,26 @@
+{
+  "name": "portafolioweb",
+  "version": "1.0.0",
+  "description": "Portafolio web creado con HTML, CSS, SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlonsoER/Portafolio-Alonso.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "AlonsoER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlonsoER/Portafolio-Alonso/issues"
+  },
+  "homepage": "https://github.com/AlonsoER/Portafolio-Alonso#readme",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}
