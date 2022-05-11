@@ -418,10 +418,25 @@ img {
 }
 
 .header__navegacion {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .header__navegacion {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .header__navegacion a {
   color: #92A9BD;
   font-size: 2.2rem;
+}
+
+.enlaces {
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 768px) {
+  .enlaces {
+    margin-bottom: 0;
+  }
 }
