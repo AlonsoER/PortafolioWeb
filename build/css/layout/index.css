@@ -37,3 +37,17 @@
     margin-bottom: 0;
   }
 }
+
+.main {
+  padding-top: 10rem;
+}
+
+.borde__izquierda {
+  border-left: 1px solid #17B5BC;
+  padding-left: 2rem;
+}
+
+.borde__derecha {
+  border-right: 1px solid #17B5BC;
+  padding-right: 2rem;
+}

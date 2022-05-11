@@ -1,2 +1,13 @@
-@use '../base/mixins' as m;
 @use '../base/variables' as v;
+
+.main{
+    padding-top: 10rem;
+}
+.borde__izquierda{
+    border-left: 1px solid v.$verde;
+    padding-left: 2rem;
+}
+.borde__derecha{
+    border-right: 1px solid v.$verde;
+    padding-right: 2rem;
+}
