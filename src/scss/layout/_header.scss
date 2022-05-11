@@ -1,0 +1,25 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.header{
+    padding-top: 5rem;
+    .header__titulo{
+        color: v.$verde;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+}
+.contenedor__nav{
+    max-width: 40%;
+    margin: 0 auto;
+}
+.header__navegacion{
+    display: flex;
+    justify-content: space-between;
+    a{
+        color: v.$gris;
+        font-size: 2.2rem;
+    }
+}
