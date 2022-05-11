@@ -22,5 +22,8 @@
   "homepage": "https://github.com/AlonsoER/PortafolioWeb#readme",
   "dependencies": {
     "sass": "^1.51.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
