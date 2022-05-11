@@ -75,3 +75,15 @@
   border-right: 1px solid #17B5BC;
   padding-right: 2rem;
 }
+
+.sobreMi__titulo {
+  text-align: start;
+  color: #92A9BD;
+}
+.sobreMi__titulo span {
+  color: #17B5BC;
+}
+
+.contenido__sobreMi {
+  text-align: start;
+}

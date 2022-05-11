@@ -1,3 +1,13 @@
 @use '../base/mixins' as m;
 @use '../base/variables' as v;
 
+.sobreMi__titulo{
+    text-align: start;
+    color: v.$gris;
+    span{
+        color: v.$verde;
+    }
+}
+.contenido__sobreMi{
+    text-align: start;
+}
