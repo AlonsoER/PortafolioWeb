@@ -441,6 +441,30 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  .grid__sobreMi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid__misProyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid__miExperiencia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
 .main {
   padding-top: 10rem;
 }

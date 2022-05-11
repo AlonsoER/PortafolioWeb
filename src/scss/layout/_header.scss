@@ -33,3 +33,18 @@
         margin-bottom: 0;
     }
 }
+.grid__sobreMi{
+    @include m.tablet{
+        @include m.grid(2, 2rem);
+    }
+}
+.grid__misProyectos{
+    @include m.tablet{
+        @include m.grid(3, 2rem);
+    }
+}
+.grid__miExperiencia{
+    @include m.tablet{
+        @include m.grid(3, 2rem);
+    }
+}
