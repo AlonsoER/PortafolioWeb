@@ -12,3 +12,17 @@
 .contenido__sobreMi{
     text-align: start;
 }
+.img__sobreMi{
+    width: 20rem;
+    margin: 0 auto;
+    img{
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        border-bottom: 2px inset v.$verde ;
+        border-right: 2px inset v.$verde ;
+        padding: 1rem;
+        @include m.tablet{
+            margin-bottom: 0;
+        }
+    }
+}

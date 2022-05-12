@@ -15,6 +15,7 @@
 .grid__sobreMi{
     @include m.tablet{
         @include m.grid(2, 2rem);
+        align-items: center
     }
 }
 .grid__misProyectos{
