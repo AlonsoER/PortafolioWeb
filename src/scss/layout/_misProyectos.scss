@@ -5,7 +5,6 @@
     padding-top: 10rem;
 }
 .misProyectos__titulo{
-    text-align: end;
     margin-bottom: 1.5rem;
     color: v.$gris;
     span{
@@ -14,8 +13,10 @@
 }
 .proyectos{
     margin-bottom: 2rem;
+    text-align: end;
 }
 .grid__misProyectos{
+    text-align: end;
     @include m.tablet{
         margin-bottom: 0;
     }

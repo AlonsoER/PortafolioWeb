@@ -116,7 +116,6 @@
 }
 
 .misProyectos__titulo {
-  text-align: end;
   margin-bottom: 1.5rem;
   color: #92A9BD;
 }
@@ -126,8 +125,12 @@
 
 .proyectos {
   margin-bottom: 2rem;
+  text-align: end;
 }
 
+.grid__misProyectos {
+  text-align: end;
+}
 @media (min-width: 768px) {
   .grid__misProyectos {
     margin-bottom: 0;
@@ -139,7 +142,7 @@
 }
 
 .miExperiencia__titulo {
-  text-align: start;
+  text-align: end;
   margin-bottom: 2rem;
   color: #92A9BD;
 }
@@ -150,8 +153,13 @@
 .miExperiencia__img {
   width: 15rem;
   margin-bottom: 0.5rem;
+  display: inline;
 }
 
 .miExperiencia__datos {
   margin-bottom: 3rem;
+}
+
+.grid__miExperiencia section {
+  text-align: end;
 }

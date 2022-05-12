@@ -30,6 +30,6 @@
         @include m.grid(2, 2rem);
     }
     @include m.desktop{
-        @include m.grid(3, 2rem)
+        @include m.grid(3, 2rem);
     }
 }
