@@ -1,0 +1,21 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.section__miExperiencia{
+    margin-top: 10rem;
+}
+.miExperiencia__titulo{
+    text-align: start;
+    margin-bottom: 2rem;
+    color: v.$gris;
+    span{
+        color: v.$verde;
+    }
+}
+.miExperiencia__img{
+    width: 15rem;
+    margin-bottom: .5rem;
+}
+.miExperiencia__datos{
+    margin-bottom: 3rem;
+}
