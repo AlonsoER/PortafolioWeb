@@ -57,11 +57,12 @@
                     <h2 class="sobreMi__titulo"><span class="sobreMi__titulo--span">01.</span> Sobre mi</h2>
                     <div class="grid__sobreMi">
                         <div class="img__sobreMi">
-                            <!-- <picture> codigo para cambiar formato a imagenes
-                                <source loading="lazy"  srcset="img/blog1.webp" type="image/webp">
-                                <img loading="lazy" src="img/blog1.jpg" alt="imagen blog"> 
-                            </picture> -->
-                            <img src="/src/img/fotoMia.jpg" alt="">
+                            <picture>
+                                <source loading="lazy"  srcset="build/img/fotoMia.webp" type="image/webp">
+                                <source loading="lazy"  srcset="build/img/fotoMia.avif" type="image/avif">
+                                <img loading="lazy" src="/build/img/fotoMia.jpg" alt="Foto mia"> 
+                            </picture>
+                            <!-- <img src="/src/img/fotoMia.jpg" alt=""> -->
                         </div>
 
                         <div class="contenido__sobreMi">
@@ -288,22 +289,38 @@
                     <div class="grid__misProyectos">
                         <section class="proyectos">
                             <a href="https://cafe-blog-online.netlify.app/">
-                                <img class="misProyectos__img" src="src/img/cafe.png" alt="">
+                                <picture>
+                                    <source loading="lazy"  srcset="build/img/cafe.webp" type="image/webp">
+                                    <source loading="lazy"  srcset="build/img/cafe.avif" type="image/avif">
+                                    <img class="misProyectos__img" src="src/img/cafe.png" alt="">
+                                </picture>
                             </a>
                         </section>
                         <section class="proyectos">
                             <a href="https://portafolio-alonso.netlify.app/">
-                                <img class="misProyectos__img" src="src/img/portafolio.png" alt="">
+                                <picture>
+                                    <source loading="lazy"  srcset="build/img/portafolio.webp" type="image/webp">
+                                    <source loading="lazy"  srcset="build/img/cafe.portafolio" type="image/avif">
+                                    <img class="misProyectos__img" src="src/img/portafolio.png" alt="">
+                                </picture>
                             </a>
                         </section>
                         <section class="proyectos">
                             <a href="https://tiendafrontend-alonso.netlify.app/">
-                                <img class="misProyectos__img" src="src/img/tienda.png" alt="">
+                                <picture>
+                                    <source loading="lazy"  srcset="build/img/tienda.webp" type="image/webp">
+                                    <source loading="lazy"  srcset="build/img/tienda.avif" type="image/avif">
+                                    <img class="misProyectos__img" src="src/img/tienda.png" alt="">
+                                </picture>
                             </a>
                         </section>
                         <section class="proyectos">
                             <a href="https://rock-and-edm-festival-page.netlify.app/">
-                                <img class="misProyectos__img" src="src/img/festival.png" alt="">
+                                <picture>
+                                    <source loading="lazy"  srcset="build/img/festival.webp" type="image/webp">
+                                    <source loading="lazy"  srcset="build/img/festival.avif" type="image/avif">
+                                    <img class="misProyectos__img" src="src/img/festival.png" alt="">
+                                </picture>
                             </a>
                         </section>
                     </div>
