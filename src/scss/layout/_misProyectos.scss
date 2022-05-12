@@ -1,0 +1,22 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.section__misProyectos{
+    padding-top: 10rem;
+}
+.misProyectos__titulo{
+    text-align: end;
+    margin-bottom: 1.5rem;
+    color: v.$gris;
+    span{
+        color: v.$verde;
+    }
+}
+.proyectos{
+    margin-bottom: 2rem;
+}
+.grid__misProyectos{
+    @include m.tablet{
+        margin-bottom: 0;
+    }
+}

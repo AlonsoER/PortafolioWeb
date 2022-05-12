@@ -1,7 +1,8 @@
 @use '../base/variables' as v;
+@use '../base/mixins' as m;
 
 .main{
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 .borde__izquierda{
     border-left: 1px solid v.$verde;
@@ -10,4 +11,22 @@
 .borde__derecha{
     border-right: 1px solid v.$verde;
     padding-right: 2rem;
+}
+.grid__sobreMi{
+    @include m.tablet{
+        @include m.grid(2, 2rem);
+    }
+}
+.grid__misProyectos{
+    @include m.tablet{
+        @include m.grid(2, 2rem);
+    }
+    @include m.desktop{
+        @include m.grid(3, 2rem);
+    }
+}
+.grid__miExperiencia{
+    @include m.tablet{
+        @include m.grid(3, 2rem);
+    }
 }
