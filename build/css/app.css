@@ -438,6 +438,12 @@ img {
     font-weight: bold;
     transition: 0.5s;
   }
+  .header__navegacion a:hover svg {
+    stroke: #92A9BD;
+    transition: 0.5s;
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .enlaces {
@@ -454,12 +460,12 @@ img {
 }
 
 .borde__izquierda {
-  border-left: 1px solid #17B5BC;
+  border-left: 2px solid #17B5BC;
   padding-left: 2rem;
 }
 
 .borde__derecha {
-  border-right: 1px solid #17B5BC;
+  border-right: 2px solid #17B5BC;
   padding-right: 2rem;
 }
 
@@ -486,7 +492,7 @@ img {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .grid__miExperiencia {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -529,6 +535,9 @@ img {
 .proyectos {
   margin-bottom: 2rem;
   text-align: end;
+  background-color: #101433;
+  padding: 2.5rem;
+  border-radius: 5%;
 }
 
 .grid__misProyectos {
@@ -553,16 +562,18 @@ img {
   color: #17B5BC;
 }
 
-.miExperiencia__img {
-  width: 15rem;
-  margin-bottom: 0.5rem;
-  display: inline;
-}
-
 .miExperiencia__datos {
   margin-bottom: 3rem;
+  background-color: #101433;
+  padding: 2.5rem;
+  border-radius: 5%;
 }
 
 .grid__miExperiencia section {
-  text-align: end;
+  text-align: center;
+}
+
+.miExperiencia__texto--span {
+  color: #17B5BC;
+  font-size: 2.5rem;
 }

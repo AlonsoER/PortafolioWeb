@@ -12,16 +12,19 @@
         color: v.$verde;
     }
 }
-.miExperiencia__img{
-    width: 15rem;
-    margin-bottom: .5rem;
-    display: inline;
-}
+
 .miExperiencia__datos{
     margin-bottom: 3rem;
+    background-color: v.$color__fondo--oscuro;
+    padding: 2.5rem;
+    border-radius: 5%;
 }
 .grid__miExperiencia{
     section{
-        text-align: end;
+        text-align: center;
     }
+}
+.miExperiencia__texto--span{
+    color: v.$verde;
+    font-size: 2.5rem;
 }

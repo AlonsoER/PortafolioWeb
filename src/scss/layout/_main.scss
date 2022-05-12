@@ -5,11 +5,11 @@
     padding-top: 5rem;
 }
 .borde__izquierda{
-    border-left: 1px solid v.$verde;
+    border-left: 2px solid v.$verde;
     padding-left: 2rem;
 }
 .borde__derecha{
-    border-right: 1px solid v.$verde;
+    border-right: 2px solid v.$verde;
     padding-right: 2rem;
 }
 .grid__sobreMi{
@@ -26,7 +26,7 @@
     }
 }
 .grid__miExperiencia{
-    @include m.tablet{
+    @include m.telefono{
         @include m.grid(2, 2rem);
     }
     @include m.desktop{
