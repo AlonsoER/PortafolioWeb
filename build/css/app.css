@@ -357,7 +357,7 @@ html {
 }
 
 body {
-  font-family: "Indie Flower", cursive;
+  font-family: "Jost", sans-serif;
   font-size: 1.6rem;
   background-color: #141940;
 }
@@ -412,6 +412,13 @@ img {
   justify-content: center;
 }
 
+.header__titulo--span {
+  color: #92A9BD;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
 .contenedor__nav {
   max-width: 40%;
   margin: 0 auto;
@@ -434,15 +441,13 @@ img {
 @media (min-width: 992px) {
   .header__navegacion a:hover {
     color: #17B5BC;
-    font-size: 2.8rem;
     font-weight: bold;
+    border-bottom: 3px solid #17B5BC;
     transition: 0.5s;
   }
   .header__navegacion a:hover svg {
     stroke: #92A9BD;
     transition: 0.5s;
-    width: 32px;
-    height: 32px;
   }
 }
 
@@ -697,6 +702,7 @@ img {
 }
 .sobreMi__titulo span {
   color: #17B5BC;
+  font-size: 2.8rem;
 }
 
 .contenido__sobreMi {
@@ -745,6 +751,7 @@ img {
 }
 .misProyectos__titulo span {
   color: #17B5BC;
+  font-size: 2.8rem;
 }
 
 .proyectos {
@@ -790,6 +797,7 @@ img {
 }
 .miExperiencia__titulo span {
   color: #17B5BC;
+  font-size: 2.8rem;
 }
 
 .miExperiencia__datos {
