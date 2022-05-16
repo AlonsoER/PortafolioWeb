@@ -78,7 +78,7 @@
   height: 10%;
   width: 5%;
   border-radius: 50%;
-  background: #141940;
+  background: #001021;
 }
 .ear::after {
   transform-origin: 50% 100%;
@@ -112,7 +112,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #141940;
+  background: #001021;
   border-radius: 50%;
 }
 
@@ -132,7 +132,7 @@
   height: 0;
   width: 100%;
   border-radius: 0 0 50% 50%/0 0 40% 40%;
-  background: #141940;
+  background: #001021;
   animation: blink 4s infinite ease-in;
 }
 @keyframes blink {
@@ -184,7 +184,7 @@
   top: 25%;
   height: 50%;
   width: 20%;
-  background: #141940;
+  background: #001021;
   border-radius: 50%;
   animation: look-around 4s infinite;
 }
@@ -354,7 +354,7 @@
 .proyectos {
   margin-bottom: 2rem;
   text-align: end;
-  background-color: #101433;
+  background-color: #031731;
   padding: 2.5rem;
   border-radius: 5%;
 }
@@ -399,9 +399,24 @@
 
 .miExperiencia__datos {
   margin-bottom: 3rem;
-  background-color: #101433;
+  background-color: #031731;
   padding: 2.5rem;
   border-radius: 5%;
+}
+@media (min-width: 480px) {
+  .miExperiencia__datos {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .miExperiencia__datos {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  .miExperiencia__datos {
+    margin-bottom: 0;
+  }
 }
 
 .grid__miExperiencia section {
@@ -414,7 +429,7 @@
 }
 
 .centrado {
-  background-color: #101433;
+  background-color: #031731;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -601,4 +616,19 @@
     transform: rotate(-180deg);
     opacity: 0;
   }
+}
+.footer {
+  margin-top: 15rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.footer h3 {
+  margin: 0;
+}
+
+.footer__h3 {
+  color: #17B5BC;
+  font-size: 2rem;
+  padding: 1rem 0 1rem 0;
 }

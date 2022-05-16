@@ -1,0 +1,18 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.footer{
+    margin-top: 15rem;
+    margin-bottom: 0;
+    background-color: v.$negro;
+    text-align: center;
+    h3{
+        margin: 0;
+    }
+}
+
+.footer__h3{
+    color: v.$verde;
+    font-size: 2rem;
+    padding: 1rem 0 1rem 0;
+}

@@ -28,6 +28,15 @@
     background-color: v.$color__fondo--oscuro;
     padding: 2.5rem;
     border-radius: 5%;
+    @include m.telefono{
+        margin-bottom: 0;
+    }
+    @include m.tablet{
+        margin-bottom: 0;
+    }
+    @include m.desktop{
+        margin-bottom: 0;
+    }
 }
 .grid__miExperiencia{
     section{
