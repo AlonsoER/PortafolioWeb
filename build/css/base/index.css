@@ -400,3 +400,15 @@ img {
   height: auto;
   display: block;
 }
+
+::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 5px solid #001021;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #031731;
+}

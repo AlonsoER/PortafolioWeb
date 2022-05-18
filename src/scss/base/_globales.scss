@@ -45,3 +45,12 @@ img{
     height: auto;
     display: block;
 }
+::-webkit-scrollbar{
+    width: 1.5rem;
+}
+::-webkit-scrollbar-track{
+    border: 5px solid v.$color__fondo
+}
+::-webkit-scrollbar-thumb{
+    background-color: v.$color__fondo--oscuro;
+}
